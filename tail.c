@@ -9,7 +9,7 @@ int main (int argc, char* argv[])
 	char c;
 	c = getc(stdin);
 
-	if (string== NULL)
+	if (string == NULL)
 	{
 		return -1;
 	}
@@ -23,7 +23,7 @@ int main (int argc, char* argv[])
 
 	int len = strlen((string)+1);
 
-	for(int i = len-ogon; string[i]!=EOF ; i++)
+	for (int i = len-ogon; string[i]!=EOF ; i++)
 	{
 		printf("%c", string[i]);
 	}
